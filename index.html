@@ -7,11 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>elng-corp</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Animate On Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -43,9 +42,9 @@
     </nav>
 
     <!--Banner-->
-    <div class="container-fluid banner">
-        <div class="container text-center animate__animated animate__bounceInDown">
-            <h4 class="display-6">Selamat Datang di ELNG CORP</h4>
+    <div class="container-fluid banner" data-aos="fade-down">
+        <div class="container text-center" data-aos="fade-down">
+            <h4 class="display-6" data-aos="fade-down">Selamat Datang di ELNG CORP</h4>
             <h3 class="display-1">Hello.</h3>
             <a href="#layanan">
                 <button type="button" class="btn btn-danger btn-lg">Cek Layanan</button>
@@ -59,7 +58,7 @@
             <h2 class="display-3" id="layanan">Layanan</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum exercitationem, tempora iste amet animi ex.</p>
             <div class="row pt-4">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-up-right">
                     <span class="lingkaran">
                         <i class="fas fa-code fa-5x"></i>
                     </span>
@@ -67,7 +66,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, odio.</p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-up">
                     <span class="lingkaran">
                         <i class="far fa-palette fa-5x"></i>
                     </span>
@@ -75,7 +74,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, odio.</p>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-up-left">
                     <span class="lingkaran">
                         <i class="fal fa-network-wired fa-5x"></i>
                     </span>
@@ -93,7 +92,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro fugit quae voluptas. Reprehenderit magnam quasi corporis natus quia? Totam, maiores?
             </p>
             <div class="row pt-4 gx-4 gy-4">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right" data-aos-delay="50">
                     <div class="card crop-img">
                         <img src="./assets/img (1).svg" class="card-img-top" alt="..." width="100" height="300">
                         <div class="card-body">
@@ -104,7 +103,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-down" data-aos-delay="50">
                     <div class="card crop-img">
                         <img src="./assets/img (2).svg" class="card-img-top" alt="..." width="100" height="300">
                         <div class="card-body">
@@ -115,7 +114,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left" data-aos-delay="50">
                     <div class="card crop-img">
                         <img src="./assets/img (3).svg" class="card-img-top" alt="..." width="100" height="300">
                         <div class="card-body">
@@ -126,7 +125,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right">
                     <div class="card crop-img">
                         <img src="./assets/img (4).svg" class="card-img-top" alt="..." width="100" height="300">
                         <div class="card-body">
@@ -137,7 +136,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-up">
                     <div class="card crop-img">
                         <img src="./assets/img (5).svg" class="card-img-top" alt="..." width="100" height="300">
                         <div class="card-body">
@@ -148,7 +147,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left">
                     <div class="card crop-img">
                         <img src="./assets/img (6).svg" class="card-img-top" alt="..." width="100" height="300">
                         <div class="card-body">
@@ -168,7 +167,7 @@
         <div class="container">
             <h2 class="display-3 text-center" id="tentang">Tentang</h2>
             <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi error eaque, blanditiis id neque quos.</p>
-            <div class="clearfix pt-5">
+            <div class="clearfix pt-5" data-aos="fade-up" data-aos-delay="50">
                 <img src="./assets/about.svg" alt="" class="col-md-6 float-md-end mb-3" width="300" height="300">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et perferendis similique fuga! Saepe provident nam vel at, dolor ad?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et perferendis similique fuga! Saepe provident nam vel at, dolor ad?</p>
@@ -240,6 +239,11 @@
     </footer>
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
